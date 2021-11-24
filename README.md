@@ -8,5 +8,7 @@
 2.复制此CSS到 `/Applications/MWeb.app/Contents/Resources/PreviewAsset/previewCSS` 下
 3.刷新预览样式，选择此样式
 
+**4.2.x以后版本直接导入mwebtheme主题即可**
+
 ## 自定义方式
 导出markdown为html，审查元素，查看到class名字，到指定CSS文件更新保存替换即可
