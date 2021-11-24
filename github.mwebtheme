@@ -28,12 +28,22 @@
     "color" : "bbbbbb"
   },
   "editor" : {
+    "app-row-content-color" : "3f3f3f",
+    "app-row-icon-color" : "191919",
+    "app-row-separator-color" : "e0e0e2",
     "currentLineBgColor" : "f8f8f8",
     "bgColor" : "ffffff",
     "caretColor" : "929292",
+    "color" : "1a1a1a",
+    "app-row-selected-bgColor" : "191919",
+    "app-row-info-color" : "262626",
     "selectionColor" : "",
     "selectionBgColor" : "",
-    "color" : "1a1a1a"
+    "app-icon-color" : "191919",
+    "app-group-color" : "8e8e92",
+    "app-group-bgColor" : "efefef",
+    "app-row-bgColor" : "ffffff",
+    "app-row-title-color" : "191919"
   },
   "h1" : {
     "isBold" : true,
@@ -234,6 +244,14 @@
 
 
 .markdown-body figure figcaption{color:#666;}
+
+/* MWeb：增加 padding */
+body {
+  min-width: 200px;
+  max-width: 960px;
+  /* margin: 0 auto !important;*/
+  padding: 1em;
+}
 
 .markdown-body {
   color: #24292e;
