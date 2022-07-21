@@ -10,7 +10,16 @@
 2.复制此CSS到 `/Applications/MWeb.app/Contents/Resources/PreviewAsset/previewCSS` 下
 3.刷新预览样式，选择此样式
 
-**4.2.x以后版本直接导入mwebtheme主题后，再依次更新当前主题，将 css 内容替换即可**
+**4.2.x以后版本直接导入mwebtheme主题后，再`cmd+,`更新当前主题，将 css 内容替换即可**
 
 ## 自定义方式
 导出markdown为html，审查元素，查看到class名字，到指定CSS文件更新保存替换即可
+
+支持高亮块
+```
+<div class="callout-block"><div class="mart-emoji-1">📌</div><div class="callout-block-content">
+
+</div></div>
+```
+
+ 
