@@ -42,10 +42,10 @@ body {
 
 .markdown-body blockquote {
 color: #777;
-  border-left: 4px solid #ddd;
+  border-left: 5px solid #ddd;
   background-color: #f8f9fb;
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 
@@ -65,9 +65,19 @@ color: #777;
   border: 1px solid #dfe2e5;
 }
 
+.markdown-body table tr th {
+    text-align: center!important;
+}
+
 .markdown-body table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 4px;
 }
 
 .markdown-body table tr:nth-child(2n) {
@@ -76,10 +86,13 @@ color: #777;
 
 .markdown-body img {
   background-color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
 }
 
 .markdown-body code {
-  border-radius: 3px;
+  border-radius: 6px;
   font-size: 90%;
   color: #c7254e;
   background: #f9f2f4;
@@ -89,9 +102,7 @@ color: #777;
 
 
 .markdown-body pre>code {
-word-wrap: break-word;
-word-break: break-all;
-overflow: hidden;
+ white-space:pre-wrap;word-wrap : break-word ;overflow: hidden ;word-break:normal; 
   background: transparent;
 }
 .markdown-body .highlight pre,
@@ -168,7 +179,7 @@ pre[class*="language-"] {
 /* Inline code */
 :not(pre) > code[class*="language-"] {
     padding: .1em;
-    border-radius: .3em;
+    border-radius: .6em;
     white-space: normal;
 }
 
@@ -247,6 +258,12 @@ pre[class*="language-"] {
 
 
 pre[class*="language-"].line-numbers {
+ /* width: auto; */
+    /* display: block; */
+    white-space: pre-wrap;
+    /* word-wrap: break-word; */
+    overflow: hidden;
+  border-radius: 6px;
   position: relative;
   padding-left: 3.8em;
   counter-reset: linenumber;
@@ -285,4 +302,22 @@ counter-increment: linenumber;
   display: block;
   padding-right: 0.8em;
   text-align: right;
+}
+
+.callout-block {
+    padding:14px;display: block; border-radius: 6px;background-color: #fff5eb;border: 1px solid #fed4a4;margin-top: 16px;margin-bottom: 16px;
+}
+
+.mart-emoji-1 {
+    font-size: 20px;
+    margin-left: 4px;
+    margin-bottom: 1px;
+}
+
+.callout-block-content {
+    margin-left: 41px;margin-top: -30px;
+}
+
+.callout-block-content p {
+    margin-top: 0;margin-bottom: 0px;
 }
