@@ -14,7 +14,7 @@
 ## 自定义方式
 导出markdown为html，审查元素，查看到class名字，到指定CSS文件更新保存替换即可
 
-支持高亮块
+## 支持高亮块
 ```
 <div class="callout-block"><div class="mart-emoji-1">📌</div><div class="callout-block-content">
 
